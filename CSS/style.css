@@ -30,30 +30,73 @@ div{
 }
 
 .inicio{
-    height: 500px;
+    height: auto;
     width: 100%;
     background-color: white;
-    background-image: url(imagem/sitemarykay.png);
+    background-image: url(imagem/sitemarykay1.jpg);
+    background-size: cover;
     background-position: right center;
-    background-size: contain;
     background-repeat: no-repeat;
+    
 }
 
 .titulo{
-    padding-top: 30px;
+    padding-top: 50px;
     font-size: 2em;
     margin-left: 30px;
     text-align: left;
+    color: black;
 }
 
 .inicio > ul{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.9em;
+    font-size: 1em;
     margin-top: 30px;
     margin-left: 10px;
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+
+.paragrafo{
+    text-align: justify;
+    margin-left: 30px;
+    line-height: 3;
+    text-indent: 1em;
+    max-width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: black;
+}
+
+@media (max-width: 700px){
+    .paragrafo{
+        max-width: 100%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+.imagem > img{
+    display: none;
+}
+
+@media (max-width: 700px){
+    .inicio{
+        background-image: none;
+    }
+    
+
+    .imagem > img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    body{
+        background-color: red;
+    }
 }
 
 
