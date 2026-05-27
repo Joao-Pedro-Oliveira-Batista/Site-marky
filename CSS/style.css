@@ -6,8 +6,7 @@
 }
 
 *{
-    margin: 0;
-    margin-top: 0;
+   margin: 0;
 }
 
 
@@ -21,8 +20,8 @@ header{
 }
 
 header > h1{
-    color: rgb(230, 15, 158);
-    font-size: 1em;
+    color: rgb(255, 2, 120);
+    font-size: 1.5em;
     margin: 0;
     text-align: center;
 }
@@ -34,22 +33,20 @@ header > h1{
 
 div{
     color: white;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 .inicio{
     height: auto;
-    width: 100%;
-    background-color: rgb(255, 239, 248);
+    width: auto;
+    background-color: white;
     display: flex;
     justify-content: space-around;
-    
 }
 
 @media (max-width: 1000px){
     .inicio{
         display: block;
-
     }
 }
 
@@ -70,7 +67,6 @@ div{
 }
 
 .texto > ul{
-    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
     margin-top: 30px;
@@ -91,7 +87,7 @@ div{
     margin-left: 50px;
     line-height: 3;
     text-indent: 1em;
-    max-width: 60%;
+    max-width: 70%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
     color: black;
@@ -107,18 +103,76 @@ div{
     }
 }
 
-.imagem> img{
-    width: 100%;
+.imagem > img{
+    width: 90%;
     margin-top: 20%;
-    
+
+}
+
+.imagem > p{
+    width: 90%;
+    text-align: center;
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1000px){
+    .imagem > p{
+        width: 100%;
+        margin-top: 3%;
+    }
 }
 
 @media (max-width: 1000px){
     .imagem > img{
         display: flex;
         align-items: center;
+        width: 100%;
         margin: 0;
+        border-radius: 10px;
     }
+}
+
+.meio{
+    margin-top: 10%;
+    background-color: hwb(298 88% 0%);
+}
+
+.meio > h1{
+    text-align: center;
+    margin-left: 0;
+}
+
+.meio > p{
+    text-align: center;
+    margin-left: 0;
+    line-height: 3;
+    text-indent: 1em;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: black;
+}
+
+@media (max-width: 1050px){
+    .meio > p{
+        text-align: left;
+        text-align: justify;
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.meio > ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    margin-top: 30px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
 }
 
 
