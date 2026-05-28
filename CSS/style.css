@@ -59,7 +59,7 @@ div{
     font-family: 'moda', 'Times New Roman', Times, serif;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1050px){
     .titulo{
         margin-left: 10px;
         margin-right: 10px;
@@ -76,7 +76,7 @@ div{
     gap: 15px;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1050px){
     .texto > ul{
         margin-left: 0;
     }
@@ -93,7 +93,7 @@ div{
     color: black;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1050px){
     .paragrafo{
         text-align: left;
         text-align: justify;
@@ -104,7 +104,7 @@ div{
 }
 
 .imagem > img{
-    width: 90%;
+    max-width: 90%;
     margin-top: 20%;
 
 }
@@ -116,7 +116,7 @@ div{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1050px){
     .imagem > p{
         width: 100%;
         margin-top: 3%;
@@ -127,15 +127,23 @@ div{
     .imagem > img{
         display: flex;
         align-items: center;
-        width: 100%;
+        max-width: 100%;
         margin: 0;
         border-radius: 10px;
     }
 }
 
 .meio{
-    margin-top: 10%;
-    background-color: hwb(298 88% 0%);
+    height: auto;
+    margin-top: 4%;
+    padding-bottom: 5%;
+    background-color: hwb(300 88% 1% / 0.918);
+}
+
+@media (max-width: 1050px){
+    .meio{
+        margin-top: 10%;
+    }
 }
 
 .meio > h1{
@@ -164,16 +172,52 @@ div{
     }
 }
 
-.meio > ul{
+.meiocomputador{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
     margin-top: 30px;
-    margin-left: 40px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.meiocomputador > ul{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    gap: 15px;
+    gap: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.meiocelular > ul{
+    display: none;
+}
+
+@media (max-width: 700px){
+    .meiocomputador > ul{
+        display: none;
+    }
+
+    .meiocelular > ul{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.fim{
+    height: auto;
+    margin-top: 4%;
+    padding-bottom: 5%;
+}
+
+.fim > h1{
+    text-align: center;
+    margin-left: 0;
+    
+}
+
+
 
 
 
