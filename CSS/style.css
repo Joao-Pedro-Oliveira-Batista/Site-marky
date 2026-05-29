@@ -214,10 +214,28 @@ div{
 .fim > h1{
     text-align: center;
     margin-left: 0;
-    
+    height: auto;
 }
 
+.card{
+    display: flex;
+    justify-content: space-around;
+}
 
+.cards{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(161, 199, 71);
+    margin-top: 30px;
+    border-radius: 10px 10px 0px 0px ; 
+}
+
+.informaçao{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 0px 0px 10px 10px ;
+}
 
 
 
