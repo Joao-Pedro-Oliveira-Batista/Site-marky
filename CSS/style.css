@@ -1,8 +1,7 @@
 @font-face {
     font-family: 'moda';
-    src: url('font/The Oriental Silence.ttf') format('truetype');
+    src: url('font/Coolvetica\ Rg.otf') format('opentype');
     font-weight: normal;
-    
 }
 
 *{
@@ -21,7 +20,8 @@ header{
 
 header > h1{
     color: rgb(255, 2, 120);
-    font-size: 1.5em;
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     text-align: center;
 }
@@ -39,9 +39,11 @@ div{
 .inicio{
     height: auto;
     width: auto;
-    background-color: white;
     display: flex;
     justify-content: space-around;
+    background-image: url(fundosite/fundosite01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media (max-width: 1000px){
@@ -104,9 +106,9 @@ div{
 }
 
 .imagem > img{
-    max-width: 90%;
-    margin-top: 20%;
-
+    max-width: 500px;
+    margin-top: 50px;
+    margin-right: 30px;
 }
 
 .imagem > p{
@@ -125,8 +127,6 @@ div{
 
 @media (max-width: 1000px){
     .imagem > img{
-        display: flex;
-        align-items: center;
         max-width: 100%;
         margin: 0;
         border-radius: 10px;
@@ -135,9 +135,10 @@ div{
 
 .meio{
     height: auto;
-    margin-top: 4%;
     padding-bottom: 5%;
-    background-color: hwb(300 88% 1% / 0.918);
+    background-image: url(fundosite/fundosite2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media (max-width: 1050px){
@@ -199,6 +200,7 @@ div{
 
     .meiocelular > ul{
         display: flex;
+
         flex-direction: column;
         gap: 25px;
         font-family: Arial, Helvetica, sans-serif;
@@ -207,8 +209,10 @@ div{
 
 .fim{
     height: auto;
-    margin-top: 4%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
+    background-image: url(fundosite/fundosite01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .fim > h1{
@@ -222,20 +226,53 @@ div{
     justify-content: space-around;
 }
 
-.cards{
-    height: 200px;
-    width: 200px;
-    background-color: rgb(161, 199, 71);
-    margin-top: 30px;
-    border-radius: 10px 10px 0px 0px ; 
+@media (max-width: 700px){
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
 
-.informaçao{
+.cards{
     height: 300px;
     width: 200px;
-    background-color: rgb(206, 206, 206);
-    border-radius: 0px 0px 10px 10px ;
+    background-color: rgb(226, 231, 213);
+    margin-top: 50px;
+    border-radius: 10px 10px 10px 10px ; 
 }
+
+.cards > h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.cards > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.creditos{
+    height: auto;
+    width: auto;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.creditos > h1{
+    color: white;
+    text-align: center;
+    font-size: 0.7em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
 
 
 
