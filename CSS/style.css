@@ -335,6 +335,8 @@ a{
 .voltar{
     text-align: center;
     margin-top: 50px;
+    font-family: 'moda', Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
 }
 
 @media (max-width: 480px){
