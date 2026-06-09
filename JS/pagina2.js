@@ -9,7 +9,22 @@ function iniciamodal(modalid){
     });
 }
 
-var n9 = document.querySelector('.n9')
+var n9 = document.querySelector('.n1')
 n9.addEventListener('click', function() {
-iniciamodal('modal-produto')
+iniciamodal('modal-produto1')
+})
+
+var n9 = document.querySelector('.n2')
+n9.addEventListener('click', function() {
+iniciamodal('modal-produto2')
+})
+
+var n9 = document.querySelector('.n3')
+n9.addEventListener('click', function() {
+iniciamodal('modal-produto3')
+})
+
+var n9 = document.querySelector('.n4')
+n9.addEventListener('click', function() {
+iniciamodal('modal-produto4')
 })

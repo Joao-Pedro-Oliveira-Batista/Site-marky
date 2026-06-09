@@ -53,7 +53,7 @@ a{
 
     .dropdown{
         display: block;
-        background-color: rgba(109, 110, 110, 0.836);
+        background-color:  rgb(255, 2, 120);
 
     }
 }
@@ -342,15 +342,6 @@ a{
     }
 }
 
-.contatopg3{
-    height: 500px;
-    width: 100%;
-    background-image: url(fundosite/fundosite01.png);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .modal-container{
     width: 100vw;
     height: 100vh;
@@ -364,31 +355,48 @@ a{
     align-items: center;
 }
 
-@keyframes modal{
+@keyframes janela{
     from{
         opacity: 0;
         transform: translate3d(0, -60px, 0);
     }
+
     to{
         opacity: 1;
         transform: translate3d(0, 0, 0);
     }
 }
 
-.mostrar.modal{
-    animation: modal .3s;
+.mostrar .janela{
+    animation: janela .3s;
 }
 
 .janela > img{
     width: 300px;
     height: 400px;
     border-radius: 10px;
-
 }
 
 .janela > h1{
     margin-top: 20px;
     text-align: center;
+    font-family: 'moda', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: rgb(255, 2, 120);
+}
+
+.janela > p{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'moda', Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 255, 125);
+    border-radius: 50px;
 }
 
 .modal-container.mostrar{
