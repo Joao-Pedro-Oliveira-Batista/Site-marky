@@ -375,7 +375,7 @@ a{
     }
 }
 
-.mostrar .modal{
+.mostrar.modal{
     animation: modal .3s;
 }
 
