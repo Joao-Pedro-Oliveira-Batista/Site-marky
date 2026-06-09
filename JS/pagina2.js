@@ -28,3 +28,28 @@ var n9 = document.querySelector('.n4')
 n9.addEventListener('click', function() {
 iniciamodal('modal-produto4')
 })
+
+var n9 = document.querySelector('.n5')
+n9.addEventListener('click', function() {
+iniciamodal('modal-produto5')
+})
+
+var n9 = document.querySelector('.n6')
+n9.addEventListener('click', function() {
+iniciamodal('modal-produto6')
+})
+
+var n9 = document.querySelector('.n7')
+n9.addEventListener('click', function() {
+iniciamodal('modal-produto7')
+})
+
+var n9 = document.querySelector('.n8')
+n9.addEventListener('click', function() {
+iniciamodal('modal-produto8')
+})
+
+var n9 = document.querySelector('.n9')
+n9.addEventListener('click', function() {
+iniciamodal('modal-produto9')
+})
