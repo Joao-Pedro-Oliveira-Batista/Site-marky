@@ -15,6 +15,10 @@ main {
     padding: 0;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 .cabeçalho{
     height: 60px;
     width: 100%;
@@ -39,7 +43,6 @@ main {
     margin-right: 15px;
     color: white;
     font-size: 1em;
-    
 }
 
 a{
@@ -238,6 +241,7 @@ a{
 
 .fim{
     height: auto;
+    width: auto;
     padding-bottom: 10%;
     background-image: url(fundosite/fundosite01.png);
     background-repeat: no-repeat;
@@ -330,7 +334,8 @@ a{
     width: 200px;
     background-color: rgb(226, 231, 213);
     margin-top: 50px;
-    border-radius: 10px 10px 10px 10px ; 
+    border-radius: 10px 10px 10px 10px ;
+    
 }
 
 .cardspg2 > img{
