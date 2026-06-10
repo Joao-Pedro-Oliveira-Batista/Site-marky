@@ -9,43 +9,43 @@ function iniciamodal(modalid){
     });
 }
 
-var n9 = document.querySelector('.n1')
-n9.addEventListener('click', function() {
+var n1 = document.querySelector('.n1')
+n1.addEventListener('click', function() {
 iniciamodal('modal-produto1')
 })
 
-var n9 = document.querySelector('.n2')
-n9.addEventListener('click', function() {
+var n2 = document.querySelector('.n2')
+n2.addEventListener('click', function() {
 iniciamodal('modal-produto2')
 })
 
-var n9 = document.querySelector('.n3')
-n9.addEventListener('click', function() {
+var n3 = document.querySelector('.n3')
+n3.addEventListener('click', function() {
 iniciamodal('modal-produto3')
 })
 
-var n9 = document.querySelector('.n4')
-n9.addEventListener('click', function() {
+var n4 = document.querySelector('.n4')
+n4.addEventListener('click', function() {
 iniciamodal('modal-produto4')
 })
 
-var n9 = document.querySelector('.n5')
-n9.addEventListener('click', function() {
+var n5 = document.querySelector('.n5')
+n5.addEventListener('click', function() {
 iniciamodal('modal-produto5')
 })
 
-var n9 = document.querySelector('.n6')
-n9.addEventListener('click', function() {
+var n6 = document.querySelector('.n6')
+n6.addEventListener('click', function() {
 iniciamodal('modal-produto6')
 })
 
-var n9 = document.querySelector('.n7')
-n9.addEventListener('click', function() {
+var n7 = document.querySelector('.n7')
+n7.addEventListener('click', function() {
 iniciamodal('modal-produto7')
 })
 
-var n9 = document.querySelector('.n8')
-n9.addEventListener('click', function() {
+var n8 = document.querySelector('.n8')
+n8.addEventListener('click', function() {
 iniciamodal('modal-produto8')
 })
 
